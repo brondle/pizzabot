@@ -1,0 +1,18 @@
+{
+  "name": "pizzabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pizzabot" : "./node_modules/babel-cli/bin/babel-node.js --presets node6 script.js",
+    "test": "./node_modules/babel-cli/bin/babel-node.js --presets node6 lib/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.0",
+    "babel-preset-node6": "^11.0.0",
+    "prompt": "^1.0.0"
+  }
+}
